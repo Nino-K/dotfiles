@@ -1,0 +1,5 @@
+vim/*
+!vim/bundle/
+vim/bundle/*
+!vim/bundle/colorpack
+!vim/bundle/colorscroll
