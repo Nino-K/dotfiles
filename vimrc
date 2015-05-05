@@ -163,7 +163,7 @@ nmap ,f :FufDir<CR>
 " CtrlP maps
 nmap ,d :CtrlPDir<CR>
 nmap ,b :CtrlPBuffer<CR>
-let g:ctrlp_map = ',p'
+let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 'rw'
 set wildignore+=*/.git/*

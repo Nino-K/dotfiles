@@ -131,3 +131,6 @@ export GOROOT=/usr/lib/go
 export GOPATH=$HOME/go	
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
+# default editor
+export EDITOR="vim"
+
