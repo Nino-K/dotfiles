@@ -11,7 +11,7 @@ set hlsearch
 set incsearch
 set ignorecase
 set smartcase
-
+set autowrite
 " Show tabs and lists
 "set list
 "set list listchars=tab:\|\ ,trail:_
@@ -55,9 +55,16 @@ autocmd FileType go set tabstop=4
 autocmd FileType go set shiftwidth=4
 autocmd FileType go set softtabstop=4
 
+
+" molokai specific settings
+let g:rehash256 = 1
+let g:molokai_original = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
 " GoImports wins
 let g:go_fmt_command = "goimports"
-
+let g:go_fmt_autosave = 1
 " CtrlP should only match on filename by default
 let g:ctrlp_by_filename = 1
 
@@ -198,27 +205,27 @@ if has("gui_running")
   " GUI is running or is about to start.
   " Maximize gvim window.
   set lines=999 columns=999
-  set guifont=Droid\ Sans\ Mono\ for\ Powerline\ 10
-  "set guifont=Powerline\ Consolas\ 14
+  set guifont=Droid\ Sans\ Mono\ 9
+  " set guifont=Powerline\ Consolas\ 10
   set guioptions-=T "Toolbar
   set guioptions-=L "Something
   set guioptions-=l "Left scrollbar
   set guioptions-=m "Menu
 
   set background=light
-  colors solarized
+  colors molokai
 
   "let g:airline_theme = 'solarized'
   let g:airline_powerline_fonts = 1
   let g:Powerline_symbols = 'fancy'
 else
-  colors Mustang
+  colors molokai
 endif
 
 " Syntax and colors
 syntax on
 set t_Co=256
-"set t_Co=8
+" set t_Co=8
 
 " Dark Themes
 "colors zenburn
