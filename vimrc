@@ -12,7 +12,6 @@ set incsearch
 set ignorecase
 set smartcase
 set autowrite
-set spell spelling=en_us
 " Show tabs and lists
 "set list
 "set list listchars=tab:\|\ ,trail:_
