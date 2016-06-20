@@ -12,6 +12,7 @@ set incsearch
 set ignorecase
 set smartcase
 set autowrite
+set spell spelling=en_us
 " Show tabs and lists
 "set list
 "set list listchars=tab:\|\ ,trail:_
@@ -183,6 +184,7 @@ map <C-n> :NERDTreeToggle<CR>
 " autocmd vimenter * NERDTree
 
 " tagbar
+let g:tagbar_ctags_bin='/usr/local/bin/ctags'
 nmap <F8> :TagbarToggle<CR>
 
 " Automatically open quickfix window
