@@ -119,9 +119,9 @@ Plugin 'scrooloose/nerdtree'
 " Tabs multiple values with regex
 "Plugin 'godlygeek/tabular'
 " Snippets
-Plugin 'SirVer/ultisnips'
+"Plugin 'SirVer/ultisnips'
 " Snippet Pack for Ultisnips
-Plugin 'aalvarado/ultisnips-snippets'
+"Plugin 'aalvarado/ultisnips-snippets'
 " Aliases words and searches
 Plugin 'tpope/vim-abolish'
 " Powerline substitute
@@ -206,7 +206,6 @@ if has("gui_running")
   " GUI is running or is about to start.
   " Maximize gvim window.
   set lines=999 columns=999
-  set guifont=Droid\ Sans\ Mono\ 9
   " set guifont=Powerline\ Consolas\ 10
   set guioptions-=T "Toolbar
   set guioptions-=L "Something

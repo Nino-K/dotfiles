@@ -126,10 +126,6 @@ NO_COLOR="\[\033[0m\]"
 PS1="$GREEN\u@\h$NO_COLOR:\w$YELLOW\$(parse_git_branch)$NO_COLOR\$ "
 
 # enviroment variables
-export PATH="$PATH:$HOME/.rvm/bin:/opt/ActiveTcl-8.6/bin" # Add RVM & other evnviromet variables to PATH for scripting
-export GOROOT=/usr/lib/go
-export GOPATH=$HOME/go	
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 # default editor
 export EDITOR="vim"

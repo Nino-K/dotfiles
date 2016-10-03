@@ -1,5 +1,0 @@
-[credential]
-	helper = cache --timeout=3600
-[user]
-	email = ninok@activestate.com
-	name = Nino Khodabandeh
